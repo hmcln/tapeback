@@ -1,0 +1,23 @@
+[project]
+name = "tapeback"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "hmcln",email = "hamish@condor.net.au"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.2,<6.0)",
+    "djangorestframework (>=3.16.0,<4.0.0)",
+    "django-cors-headers (>=4.7.0,<5.0.0)",
+    "django-filter (>=25.1,<26.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
